@@ -43,7 +43,5 @@ model.compile(
     metrics=["accuracy"]
 )
 
-print(model.summary())
-exit()
 model.fit(x_train, y_train, epochs=10)
 model.evaluate(x_test, y_test)
